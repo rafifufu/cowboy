@@ -7,7 +7,7 @@ Dépendences
 ------------
 
 L'application `cowboy` utilise les applications Erlang `ranch`,
-pour écouter et accepter les connections TCP, et `crypto`,
+pour écouter et accepter les connexions TCP, et `crypto`,
 pour établir les connexions Websocket. Ces dépendences doivent 
 être chargées pour que l'application `cowboy` fonctionne. Dans un 
 environnement embarqué cela veut dire qu'elles doivent être lancées avec 
